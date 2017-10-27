@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
+  todos = ['Go skydiving', 'Play video games', 'Eat oranges', 'Walk the doggie'];
   constructor() { }
 
   ngOnInit() {
