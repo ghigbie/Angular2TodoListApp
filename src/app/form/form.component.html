@@ -15,10 +15,11 @@
                 (click)="onSubmit()"
                 >Submit</button>
     </form>
+    
+    <div class="upper-spaced">
+        <ul class="list-group">
+            <li class="list-group-item" *ngFor="let todo of todos"> {{todo}} </li>
+        </ul>
+    </div>
 </div>
 
-<div class="well no-border">
-    <ul class="list-group">
-        <li class="list-group-item" *ngFor="let todo of todos"> {{todo}} </li>
-    </ul>
-</div>

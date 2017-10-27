@@ -10,3 +10,8 @@
 .no-border{
     border: 0;
 }
+
+.upper-spaced{
+    margin-top: 6%;
+    margin-bottom: 4%;
+}
