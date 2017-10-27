@@ -18,7 +18,10 @@
     
     <div class="upper-spaced">
         <ul class="list-group">
-            <li class="list-group-item" *ngFor="let todo of todos"> {{todo}} </li>
+            <li class="list-group-item" 
+                *ngFor="let todo of todos"> 
+                <img class="small" src="./../assets/check_sign_icon_red.png"/>
+                {{todo}} </li>
         </ul>
     </div>
 </div>
