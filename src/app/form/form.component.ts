@@ -15,6 +15,10 @@ export class FormComponent implements OnInit {
     this.newTodo = '';
   }
   
+  removeItem(){
+    this.todos.pop()
+  }
+  
   constructor() { }
 
   ngOnInit() {
