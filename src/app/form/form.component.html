@@ -21,7 +21,12 @@
             <li class="list-group-item" 
                 *ngFor="let todo of todos"> 
                 <img class="small" src="./../assets/check_sign_icon_red.png"/>
-                {{todo}} </li>
+                {{todo}} 
+                <img 
+                    class="small right" 
+                    src="./../assets/xbox.png"
+                    (click) = "removeItem" />
+                </li>
         </ul>
     </div>
 </div>
